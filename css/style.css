@@ -56,6 +56,11 @@ html {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover{
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3));
 }
 
 .card img {
@@ -109,6 +114,11 @@ h3{
     padding: 13px 16px 14.5px 16px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.bouton:hover{
+    opacity: 0.7;
 }
 
 ul{
@@ -142,12 +152,13 @@ header{
     font-style: normal;
     line-height: 19px;
     padding: 15px 0px;
-    display: block;   
+    display: block;
 }
 
 .btnnav:hover {
     color: var(--main-color);
     padding: 13px 0px;
+    line-height: 19px;
     border-top: solid 2px var(--main-color);
 }
 
@@ -203,6 +214,7 @@ input::placeholder{
     padding: 4px 19px 4px 19px;
     gap: 15px;
     white-space: nowrap;
+    transition: all 0.4s ease-in-out;
 }
 
 .filter:hover{
@@ -434,6 +446,11 @@ input::placeholder{
     color: var(--black);
     font-size: 1em;
     font-weight: 400;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer_nav ul li a:hover{
+    color: var(--main-color);
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
